@@ -1,0 +1,1 @@
+clang -std=c99 -Wall -Werror $(sdl2-config --cflags --libs) main.c && SDL_VIDEODRIVER=x11 ./a.out
